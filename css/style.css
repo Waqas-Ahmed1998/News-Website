@@ -121,7 +121,7 @@ nav .container ul a:hover {
   width: 200px;
 }
 #landing {
-  background: url(/img/featured.jpg) no-repeat center center/cover;
+  background: url(../img/featured.jpg) no-repeat center center/cover;
   height: 70vh;
 }
 #landing .main-content {
@@ -166,7 +166,7 @@ nav .container ul a:hover {
   grid-gap: 1rem;
 }
 #news .container .item-stretch-2 .part-1 .image-2 {
-  background: url(/img/articles/tech2.jpg) no-repeat center center/cover;
+  background: url(../img/articles/tech2.jpg) no-repeat center center/cover;
 }
 
 #news .container .item-stretch .part-1 {
@@ -182,7 +182,7 @@ nav .container ul a:hover {
   grid-template-columns: 1fr;
 }
 #news .container .item-stretch .part-1 .image {
-  background: url(/img/articles/ent1.jpg) no-repeat center center/cover;
+  background: url(../img/articles/ent1.jpg) no-repeat center center/cover;
 }
 #news .container .no-stretch {
   display: grid;
