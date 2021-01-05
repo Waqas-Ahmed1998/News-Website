@@ -123,8 +123,10 @@
         <div class="news-latter">
           <h2 class="mb-1">EMAIL NEWSLETTER</h2>
           <p class="mb-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, exercitationem.</p>
-          <input class="" type="text">
-          <button style='margin-top: 0.5rem;' class="btn btn-large">Submit</button>
+          <form name='contact' method="POST" data-netlify='true'>
+            <input placeholder="Enter a valid email..." name='email' type="email">
+            <button type='submit' style='margin-top: 0.5rem;' class="btn btn-large">Subscribe</button>
+          </form>
         </div>
         <div class="site-links">
           <h2>SITE LINKS</h2>
@@ -138,7 +140,7 @@
         <div class="join-club">
           <h2 class='mb-1'>JOIN OUR CLUB</h2>
           <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, placeat.</p>
-          <button class="btn btn-large">Join Now</button>
+          <button type='submit' class="btn btn-large">Join Now</button>
         </div>
 
       </div>
